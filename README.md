@@ -5,11 +5,11 @@
 Statistical analyses of the Kaggle - San Francisco crime incidents data using Apache Spark Structured Streaming. This project will create a Kafka server to produce data, and ingest data through Spark Structured Streaming. Udacity Data Streaming Project
 
 ## Requirements
-Spark 2.4.3
-Scala 2.11.x
-Java 1.8.x
-Kafka build with Scala 2.11.x
-Python 3.6.x or 3.7.x
+* Spark 2.4.3
+* Scala 2.11.x
+* Java 1.8.x
+* Kafka build with Scala 2.11.x
+* Python 3.6.x or 3.7.x
 
 ## How to use the application
 
@@ -34,11 +34,15 @@ In order to run the application you will need to start:
 
 ### Kafka Consumer Console Output
 
-
+![alt text](https://github.com/lemonjchung/Spark-Streaming_SFCrime-Statistics/blob/main/screenshots/SFCrime_Kafka-console-consumer2.png)
 
 ### Spark Job - progress reporter
 
-
+![alt text](https://github.com/lemonjchung/Spark-Streaming_SFCrime-Statistics/blob/main/screenshots/SFCrime_datastream_spark-submit2.png)
 
 ### Spark UI
+
+![alt text](https://github.com/lemonjchung/Spark-Streaming_SFCrime-Statistics/blob/main/screenshots/SFCrime-SparkStreamingUI1.png)
+
+![alt text](https://github.com/lemonjchung/Spark-Streaming_SFCrime-Statistics/blob/main/screenshots/SFCrime-SparkStreamingUI2.png)
 
